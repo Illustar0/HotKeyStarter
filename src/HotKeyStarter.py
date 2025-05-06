@@ -1,8 +1,9 @@
+import argparse
 import os
 import sys
 import time
 import tomllib
-import argparse
+
 from pynput.keyboard import Controller, KeyCode
 
 CONFIG_PATH = "config.toml"
